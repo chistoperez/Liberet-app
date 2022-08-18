@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Liberet-app/static/css/main.084bc932.css",
-    "main.js": "/Liberet-app/static/js/main.876b40ad.js",
+    "main.css": "/Liberet-app/static/css/main.e14ea011.css",
+    "main.js": "/Liberet-app/static/js/main.5b1dcc6b.js",
     "static/js/787.c226812c.chunk.js": "/Liberet-app/static/js/787.c226812c.chunk.js",
     "index.html": "/Liberet-app/index.html",
-    "main.084bc932.css.map": "/Liberet-app/static/css/main.084bc932.css.map",
-    "main.876b40ad.js.map": "/Liberet-app/static/js/main.876b40ad.js.map",
+    "main.e14ea011.css.map": "/Liberet-app/static/css/main.e14ea011.css.map",
+    "main.5b1dcc6b.js.map": "/Liberet-app/static/js/main.5b1dcc6b.js.map",
     "787.c226812c.chunk.js.map": "/Liberet-app/static/js/787.c226812c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.084bc932.css",
-    "static/js/main.876b40ad.js"
+    "static/css/main.e14ea011.css",
+    "static/js/main.5b1dcc6b.js"
   ]
 }
