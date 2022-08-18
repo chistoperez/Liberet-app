@@ -9,20 +9,17 @@ const Profile = () => {
   setNavbarActive(2);
   return (
     <>
-      <div className="bg-secondary-100/30 h-screen flex flex-col items-center justify-center ">
-        <CgProfile size={200} className="text-secondary-100  " />
-        <h1 className="text-secondary-100 text-center text-5xl pt-10 font-bold">
-          Datos seleccionados
-        </h1>
-        <p className="text-secondary-100 text-center text-2xl pt-10">
-          Día: {actualWeekday[calendarActive]} - {date + calendarActive}
+      <div className="bg-secondary-100/30 h-screen flex flex-col items-center justify-center text-secondary-100 text-center text-2xl pt-10">
+        <CgProfile size={200} className=" " />
+        <h1 className=" text-5xl  font-bold pt-10">Datos seleccionados</h1>
+        <p className="  text-3xl font-bold pt-10">Día:</p>
+        <p className="p-5">
+          {actualWeekday[calendarActive]} - {date + calendarActive}
         </p>
-        <p className="text-secondary-100 text-center text-2xl pt-10">
-          Horario de entrega: {time}
-        </p>
-        <p className="text-secondary-100 text-center text-2xl pt-10">
-          Servicio: {active}
-        </p>
+        <p className="  text-3xl font-bold pt-10">Horario de entrega: </p>
+        <p className="p-5">{time}</p>
+        <p className=" text-3xl font-bold pt-10">Servicio: </p>
+        <p className="p-5">{active}</p>
         <NavBar />
       </div>
     </>
